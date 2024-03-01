@@ -1,0 +1,116 @@
+/* Footer.css */
+
+.footer {
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0; /* Add padding for better spacing */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items at the start vertically */
+}
+
+.footer-section {
+    flex: 1; /* Equal width for all sections */
+    text-align: center;
+    margin: 10px; /* Add margin for spacing between sections */
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footer-section ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin: 0;
+}
+.footer-section h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-right: 90px;
+}
+.footer-section h4 {
+    padding-right: 270px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 750;
+
+}
+.footer-section img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-section .social-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section .social-icon img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* Reduce space between "Quick Links" and "Extra Links" */
+.footer-container .footer-section:nth-child(1),
+.footer-container .footer-section:nth-child(2) {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+@media screen and (max-width: 768px) {
+    .footer-section {
+        flex-basis: 50%; /* Two columns on smaller screens */
+    }
+    
+    .footer-section h2 {
+        font-size: 16px; /* Decrease font size for smaller screens */
+        padding-right: 0; /* Remove right padding */
+    }
+    
+    .footer-section p {
+        padding-right: 0; /* Remove right padding */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-section {
+        flex-basis: 100%; /* Single column on extra small screens */
+    }
+    
+    .footer-section h2 {
+        font-size: 14px; /* Further decrease font size for extra small screens */
+    }
+    
+    .footer-section h4 {
+        padding-right: 0; /* Remove right padding */
+    }
+}
