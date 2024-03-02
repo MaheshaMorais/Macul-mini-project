@@ -29,6 +29,18 @@
     
 }
 
+.nav-link:hover,
+.signup-button:hover {
+    color: #C31E39; /* Change text color on hover */
+    text-decoration: none;
+}
+
+.signup-button:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    border: 1px solid #C31E39; /* Add border on hover */
+}
+
+
 .search-container {
     position: relative;
 }
@@ -63,6 +75,8 @@
     padding-right: 7px;
     text-align: center;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
