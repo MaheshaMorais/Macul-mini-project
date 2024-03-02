@@ -3,7 +3,7 @@ import './Questions.css'
 
 const Questions= () =>{
     return(
-        <h1>Hi</h1>
+        <h2>hi</h2>
     );
 }
 export default Questions;
