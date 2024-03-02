@@ -107,7 +107,7 @@
     content: '';
     position: absolute;
     top: 50%;
-    width: 50%; /* Adjust the width of the lines */
+    width: 20%; /* Adjust the width of the lines */
     height: 1px;
     background-color: red;
   }
