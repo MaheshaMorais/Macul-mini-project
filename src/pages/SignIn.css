@@ -1,48 +1,46 @@
-/* Updated CSS for responsiveness */
 
-/* Adjustments for small screens */
 @media only screen and (max-width: 768px) {
     .signin-container {
-      flex-direction: column; /* Change to column layout on small screens */
+      flex-direction: column; 
       padding: 10px;
     }
   
     .left img {
-      width: 100%; /* Make the image responsive */
-      margin-right: 0; /* Remove margin */
+      width: 100%; 
+      margin-right: 0; 
     }
   
     .google-signin input {
-      width: 100%; /* Make the input field full-width */
+      width: 100%; 
     }
   
     .google-signin img {
-      margin-left: 0; /* Remove margin */
-      margin-top: 10px; /* Adjust margin for spacing */
-      position: relative; /* Change position to relative */
+      margin-left: 0; 
+      margin-top: 10px; 
+      position: relative; 
     }
   
     .or-line::before,
     .or-line::after {
-      width: 30%; /* Adjust width of the lines */
+      width: 30%; 
     }
   
     .or-line::before {
-      right: calc(50% + 5px); /* Adjust position of the first line */
+      right: calc(50% + 5px); 
     }
   
     .or-line::after {
-      left: calc(50% + 5px); /* Adjust position of the second line */
+      left: calc(50% + 5px); 
     }
   
     .forgot-password {
-      float: none; /* Remove float */
-      text-align: center; /* Align center */
-      margin-top: 10px; /* Adjust margin */
+      float: none;
+      text-align: center; 
+      margin-top: 10px;
     }
   
     .sign-in-button {
-      width: 100%; /* Make the button full-width */
+      width: 100%; 
     }
   
     a {
@@ -61,10 +59,10 @@
   }
   
   .left img {
-    width: 400px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 400px; 
+    height: auto;
     float: left; /* Align the image to the left */
-    margin-right: 150px; 
+    margin-right: 200px; 
   }
   
   .right {

@@ -1,0 +1,75 @@
+.create-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.left1 {
+    flex: 1;
+    padding: 20px;
+   
+}
+
+.right1 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.input-group1 {
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.input-group1 label {
+    color: #333333; /* Label text color */
+    margin-bottom: 5px; /* Add bottom margin for spacing */
+    width: 100%; /* Make labels full width */
+}
+
+.input-group1 input {
+    width: calc(50% - 5px); /* Adjust width to fit two inputs with spacing */
+    padding: 10px;
+    border: 1px solid #C31E39; /* Red border color */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    margin-right: 10px; /* Add right margin between inputs */
+    display: inline-block; /* Display inputs inline */
+}
+
+
+
+.terms1 {
+    margin-bottom: 20px;
+}
+
+.create-account-button {
+    padding: 10px 20px;
+    background-color: #C31E39;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-account-button:hover {
+    background-color: #960E29; /* Darker shade of red on hover */
+}
+
+.sign-in-text {
+    text-align: center;
+    color: #333333;
+}
+
+.reset-text {
+    color: #C31E39;
+    cursor: pointer;
+}
+
+.reset-text:hover {
+    text-decoration: underline;
+}

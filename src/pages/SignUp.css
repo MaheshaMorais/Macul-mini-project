@@ -29,11 +29,11 @@
     }
   
     .or-line::before {
-      right: calc(50% + 5px); /* Adjust position of the first line */
+      right: calc(70% + 2px); /* Adjust position of the first line */
     }
   
     .or-line::after {
-      left: calc(50% + 5px); /* Adjust position of the second line */
+      left: calc(70% + 2px); /* Adjust position of the second line */
     }
   
     .forgot-password {

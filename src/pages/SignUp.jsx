@@ -2,6 +2,7 @@ import React from 'react';
 import googleimg from "../assets/Google.jpg";
 import './SignIn.css'; // Importing the CSS file for styling
 import logoimg from "../assets/Logo_2.png";
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
   return (
@@ -24,7 +25,7 @@ const SignUp = () => {
           <input type="text" id="username" placeholder="Continue with email"/>
         </div>
         <h4>By creating an account you agree with our <a href="#">Terms of Services privacy policies and our notifications settings</a></h4>
-       <h5>Already have an account? <a href="#">Sign in</a></h5>
+       <h5>Already have an account? <Link to="/sign-in"></Link>Sign in</h5>
       </div>
     </div>
   );
