@@ -28,7 +28,9 @@
 .input-group1 label {
     color: #333333; /* Label text color */
     margin-bottom: 5px; /* Add bottom margin for spacing */
-    width: 100%; /* Make labels full width */
+    width: 10%; /* Make labels full width */
+    display: block;
+  
 }
 
 .input-group1 input {
@@ -36,6 +38,7 @@
     padding: 10px;
     border: 1px solid #C31E39; /* Red border color */
     border-radius: 5px;
+    width: 100%;
     margin-bottom: 10px; /* Add some bottom margin for spacing */
     margin-right: 10px; /* Add right margin between inputs */
     display: inline-block; /* Display inputs inline */
@@ -49,14 +52,16 @@
 
 .create-account-button {
     padding: 10px 20px;
-    background-color: #C31E39;
+    background-color: black;
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+    width: 100%;
+    border-radius: 50px;
 }
-
-.create-account-button:hover {
+eate-account-button:hover {
     background-color: #960E29; /* Darker shade of red on hover */
 }
 

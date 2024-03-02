@@ -11,8 +11,6 @@ return(
           <input type="text" id="username" placeholder="First Name"/>
           <label htmlFor="username">Last Name</label>
           <input type="text" id="username" placeholder="Last Name"/>
-          
-         
         </div>
         <label htmlFor="email">Email</label>
         <div className="input-group1">
