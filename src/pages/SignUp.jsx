@@ -23,8 +23,8 @@ const SignUp = () => {
       
           <input type="text" id="username" placeholder="Continue with email"/>
         </div>
-        <h1>By creating an account you agree with our <a href="#">Terms of Services privacy policies and our notifications settings</a></h1>
-       <h1>Already have an account? <a href="#">Sign in</a></h1>
+        <h4>By creating an account you agree with our <a href="#">Terms of Services privacy policies and our notifications settings</a></h4>
+       <h5>Already have an account? <a href="#">Sign in</a></h5>
       </div>
     </div>
   );

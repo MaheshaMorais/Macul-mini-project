@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='footer'>
         <div className="footer-container">
             <div className="footer-section">
-                <h2>Quick Links</h2>
+                <p>Quick Links</p>
                 <ul>
                     <li><a href="/"><img src={Tick1} alt="Tick" />Home</a></li>
                     <li><a href="/about"><img src={Tick1} alt="Tick" />About</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="footer-section">
-                <h2>Extra Links</h2>
+                <p>Extra Links</p>
                 <ul>
                     <li><a href="#"><img src={Tick1} alt="Tick" />Our Services</a></li>
                     <li><Link to="/question"><img src={Tick1} alt="Tick" />Ask Questions</Link></li>
@@ -32,11 +32,11 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="footer-section">
-                <h3>Contact Info</h3>
-                <p>Your contact information here</p>
+                <p>Contact Info</p>
+                <p className="contact-info">Your contact information here</p>
             </div>
             <div className="footer-section">
-                <h4>Follow Us</h4>
+                <p>Follow Us</p>
                 <ul>
                     <li><a href="https://www.facebook.com" className="social-icon"><img src={facebook} alt="Facebook" />Facebook</a></li>
                     <li><a href="https://www.instagram.com" className="social-icon"><img src={instagram} alt="Instagram" />Instagram</a></li>

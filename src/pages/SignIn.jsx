@@ -2,14 +2,16 @@ import React from 'react';
 import googleimg from "../assets/Google.jpg";
 import './SignIn.css'; 
 import logoimg from "../assets/Logo.png";
+import { Link } from 'react-router-dom';
 
-const SignIn = () => {
+function SignIn () {
   return (
     <div className="signin-container">
       <div className="left">
         <img src={logoimg} alt="Logo" />
       </div>
       <div className="right">
+      
         <p>
           <span className='black-text'>Sign</span>
           <span className='red-text'>In</span>
@@ -29,7 +31,7 @@ const SignIn = () => {
           <a href="#" className="forgot-password">Forgot?</a>
         </div>
         <button className='signin-button'>Sign In</button>
-        <h1>Don't have an account? <a href="#">Sign up</a></h1>
+        <h4>Don't have an account? <Link to="/create-account">Create Account</Link></h4>
       </div>
     </div>
   );

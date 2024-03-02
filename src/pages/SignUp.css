@@ -25,7 +25,7 @@
   
     .or-line::before,
     .or-line::after {
-      width: 30%; /* Adjust width of the lines */
+      width: 20%; /* Adjust width of the lines */
     }
   
     .or-line::before {
@@ -39,7 +39,7 @@
     .forgot-password {
       float: none; /* Remove float */
       text-align: center; /* Align center */
-      margin-top: 10px; /* Adjust margin */
+      margin-top: 5px; /* Adjust margin */
     }
   
     .sign-in-button {
@@ -111,16 +111,16 @@
     position: absolute;
     top: 50%;
     width: 40%; /* Adjust the width of the lines */
-    height: 1px;
+    height: 0.5px;
     background-color: red;
   }
   
   .or-line::before {
-    right: calc(70% + 5px); /* Adjust the position of the first line */
+    right: calc(70% + 3px); /* Adjust the position of the first line */
   }
   
   .or-line::after {
-    left: calc(70% + 5px); /* Adjust the position of the second line */
+    left: calc(70% + 3px); /* Adjust the position of the second line */
   }
   
   .google-signin img {
@@ -182,7 +182,7 @@
   }
   
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   /* CSS for responsiveness */

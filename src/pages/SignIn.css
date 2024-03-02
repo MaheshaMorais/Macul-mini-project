@@ -46,12 +46,12 @@
     }
   
     a {
-      display: block; /* Display as block element */
-      margin: 10px auto; /* Center align and add spacing */
+      display: block; 
+      margin: 10px auto; 
     }
   }
   
-  /* Original CSS with changes highlighted */
+
   .signin-container {
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@
     width: 400px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     float: left; /* Align the image to the left */
-    margin-right: 150px; /* Add some space between the image and the "right" div */
+    margin-right: 150px; 
   }
   
   .right {
@@ -74,7 +74,7 @@
   
   .right p {
     font-size: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   
   .black-text {
@@ -109,17 +109,17 @@
     content: '';
     position: absolute;
     top: 50%;
-    width: 40%; /* Adjust the width of the lines */
+    width: 50%; /* Adjust the width of the lines */
     height: 1px;
     background-color: red;
   }
   
   .or-line::before {
-    right: calc(70% + 5px); /* Adjust the position of the first line */
+    right: calc(80% + 4px); /* Adjust the position of the first line */
   }
   
   .or-line::after {
-    left: calc(70% + 5px); /* Adjust the position of the second line */
+    left: calc(80% + 4px); /* Adjust the position of the second line */
   }
   
   .google-signin img {
@@ -145,18 +145,22 @@
     border: 1px solid #C31E39;
     border-radius: 15px;
   }
+  .input-group a{
+  padding-top: 10px;
   
+}
   .forgot-password {
     float: right;
-    font-size: 14px;
+    font-size: 15px;
     color: #007bff;
     text-decoration: none;
     margin-top: -70px;
+    padding-right: 6px;
     display: flex;
   }
   
   .forgot-password:hover {
-    text-decoration: underline;
+   text-decoration: none;
   }
   
   .signin-button {
@@ -180,5 +184,58 @@
   
   a:hover {
     text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .signin-container {
+      flex-direction: column; /* Change to column layout on small screens */
+    }
+  
+    .left img {
+      width: 100%; /* Make the image responsive */
+      margin-right: 0; /* Remove margin */
+    }
+  
+    .right p {
+      font-size: 10vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .google-signin input {
+      width: 90%; /* Adjusted width for smaller screens */
+      padding: 2.5vw; /* Adjusted padding for smaller screens */
+      border-radius: 3vw; /* Adjusted border radius for smaller screens */
+    }
+  
+    .or-line::before,
+    .or-line::after {
+      width: 30%; /* Adjusted width for smaller screens */
+      display: none;
+    }
+  
+    .input-group label {
+      font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .input-group input {
+      padding: 2.5vw; /* Adjusted padding for smaller screens */
+      border-radius: 3vw; /* Adjusted border radius for smaller screens */
+    }
+  
+    .input-group a {
+      margin-top: 2.5vw; /* Adjusted margin top for smaller screens */
+      font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .forgot-password {
+      margin-top: 2.5vw; /* Adjusted margin top for smaller screens */
+      font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    }
+  
+    .signin-button {
+      padding: 4vw; /* Adjusted padding for smaller screens */
+      font-size: 4vw; /* Adjusted font size for smaller screens */
+      margin-top: 2.5vw; /* Adjusted margin top for smaller screens */
+      width: 90%; /* Adjusted width for smaller screens */
+    }
   }
   

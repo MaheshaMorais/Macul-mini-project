@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Terms from './pages/Terms';
 import Private from './pages/privacy';
 import Questions from './pages/Questions';
+import Create from './pages/Createacc';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <Route path='/terms' element={<Terms/>}/>
     <Route path='/privacy' element={<Private/>}/>
     <Route path='/question' element={<Questions/>}/>
+    <Route path='/create-account' element={<Create/>}/>
    
 
   </Routes>
