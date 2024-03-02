@@ -6,11 +6,6 @@
     padding: 20px;
 }
 
-.left1 {
-    flex: 1;
-    padding: 20px;
-   
-}
 
 .right1 {
     flex: 1;
@@ -77,4 +72,35 @@ eate-account-button:hover {
 
 .reset-text:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .create-account-container {
+        flex-direction: column; /* Change flex direction to column */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .right1 {
+        padding: 10px; /* Reduce padding */
+    }
+    .rignt1 img{
+        width: 100%;
+    }
+
+    .input-group1 {
+        flex-direction: column; /* Change flex direction to column */
+    }
+
+    .input-group1 label {
+        width: 60%; /* Reset label width */
+    }
+
+    .input-group1 input {
+        width: 90%; /* Make inputs full width */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .create-account-button {
+        border-radius: 50px; /* Increase border radius */
+    }
 }
